@@ -1,0 +1,43 @@
+.form-singer {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-singer h2 {
+  color: var(--color5);
+  margin-bottom: 1rem;
+}
+
+.form-singer input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-singer button {
+  background-color:var(--color1);
+  color: white;
+  padding: 0.6rem;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-singer p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.form-singer span {
+  color: var(--color4);
+  cursor: pointer;
+  text-decoration: underline;
+}

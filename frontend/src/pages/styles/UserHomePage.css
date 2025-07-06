@@ -1,0 +1,44 @@
+.user-homepage {
+  min-height: 100vh;
+  background-color: var(--color2); 
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.user-homepage h1 {
+  color: var(--color5);
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.user-homepage .welcome {
+  color: var(--color1);
+  margin-bottom: 1rem;
+}
+
+.user-homepage .subtitle {
+  color: var(--color3); 
+  margin-bottom: 0.5rem;
+}
+
+.user-homepage .description {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.user-homepage .logout-btn {
+  background-color: var(--color4); 
+  color: white;
+  border: none;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-homepage .logout-btn:hover {
+  background-color: var(--color5);
+}

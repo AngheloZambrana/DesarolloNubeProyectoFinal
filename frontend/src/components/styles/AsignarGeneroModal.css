@@ -1,0 +1,70 @@
+.asignar-genero-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 20, 20, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.asignar-genero-modal {
+  background-color: var(--color2);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  font-family: system-ui, Avenir, Helvetica, sans-serif;
+  margin: auto;
+}
+
+.asignar-genero-modal h2 {
+  color: var(--color5);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.asignar-genero-modal label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Botones */
+.asignar-genero-modal button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.asignar-genero-modal button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.asignar-genero-modal button:nth-child(1) {
+  background-color: var(--color5);
+  color: white;
+}
+.asignar-genero-modal button:nth-child(1):hover:not(:disabled) {
+  background-color: #911f42;
+}
+
+.asignar-genero-modal button:nth-child(2) {
+  background-color: var(--color4);
+  color: white;
+}
+.asignar-genero-modal button:nth-child(2):hover {
+  background-color: #c03a30;
+}

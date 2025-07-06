@@ -1,0 +1,33 @@
+.register-page {
+  padding: 2rem;
+  background-color: var(--color2);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.register-title {
+  color: var(--color5);
+  margin-bottom: 1.5rem;
+}
+
+.register-buttons button {
+  margin: 0 1rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  background-color:var(--color3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-buttons button.active {
+  background-color: var(--color1); 
+  color: white;
+}
+
+.register-form-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+:root {
+  --color1: #b3cc57;
+  --color2: #ecf081;
+  --color3: #ffbe40;
+  --color4: #ef746f;
+  --color5: #ab3e5b;
+
+  --font-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --text-color: #212121;
+  --background-color: #ffffff;
+  --transition-fast: 0.3s ease;
+
+  font-family: var(--font-base);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+

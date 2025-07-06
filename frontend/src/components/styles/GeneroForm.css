@@ -1,0 +1,41 @@
+.genero-form-container {
+  background-color: var(--color2);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.genero-form-container input[type="text"],
+.genero-form-container input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color3);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fffbe6;
+}
+
+.genero-form-container button {
+  background-color: var(--color5);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.genero-form-container button:disabled {
+  background-color: #995066;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.genero-form-container button:hover:not(:disabled) {
+  background-color: #911f42;
+}

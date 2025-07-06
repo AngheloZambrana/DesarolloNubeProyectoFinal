@@ -1,0 +1,29 @@
+.singer-detalle-page {
+  background-color: #FFD699;
+  min-height: 100vh;
+  padding: 2rem 5%;
+}
+
+.singer-contenido-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.volver-btn {
+  margin-top: 2rem;
+  background-color: var(--color4);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.volver-btn:hover {
+  background-color: var(--color5);
+}
