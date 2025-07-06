@@ -1,7 +1,5 @@
 # Musicfy - Plataforma Musical 🎵  
 
-*(Reemplazar con logo real)*  
-
 Musicfy es una plataforma musical que conecta artistas con sus fans, permitiendo la creación, distribución y descubrimiento de música de manera intuitiva.  
 
 ## 🔐 Tipos de Usuarios  
